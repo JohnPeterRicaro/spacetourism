@@ -1,7 +1,7 @@
 import { ContextProvider } from "@/ContextProvider/ContextProvider";
 import "@/styles/globals.css";
 import { Bellefair, Barlow_Condensed } from "@next/font/google";
-import NavBar from "./components/navBar";
+import NavBar from "../components/navBar";
 
 export const bellefair = Bellefair({
   subsets: ["latin"],

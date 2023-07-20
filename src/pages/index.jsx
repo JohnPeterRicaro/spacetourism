@@ -1,5 +1,5 @@
 import { barlow_condensed, bellefair } from "./_app";
-import MobileMenu from "./components/mobileMenu";
+import MobileMenu from "../components/mobileMenu";
 
 export default function Home() {
   return (

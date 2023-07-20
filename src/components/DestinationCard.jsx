@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { barlow_condensed, bellefair } from "../_app";
+import { barlow_condensed, bellefair } from "../pages/_app";
 import { useStateContext } from "@/ContextProvider/ContextProvider";
 import destinationData, { DestinationTitle } from "../data/DestinationData";
 

@@ -1,5 +1,5 @@
 import { useStateContext } from "@/ContextProvider/ContextProvider";
-import { barlow_condensed, bellefair } from "../_app";
+import { barlow_condensed, bellefair } from "../pages/_app";
 import CrewData , { linkedList } from "../data/CrewData";
 import { useEffect } from "react";
 
