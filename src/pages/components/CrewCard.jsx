@@ -15,7 +15,7 @@ export const CrewCard = ({ data }) => {
   }, []);
 
   const active = "w-[10px] h-[10px] rounded-full bg-white cursor-pointer"
-  const inactive = "w-[10px] h-[10px] rounded-full bg-white opacity-[17%] cursor-pointer"
+  const inactive = "w-[10px] h-[10px] rounded-full bg-white opacity-[17%] cursor-pointer hover:opacity-100 transition"
 
   return (
     <>
@@ -64,3 +64,5 @@ export const CrewCard = ({ data }) => {
     </>
   );
 };
+
+export default CrewCard

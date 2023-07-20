@@ -3,7 +3,7 @@ import { bellefair, barlow_condensed } from "../_app";
 import { useEffect } from "react";
 import { techLinkedList, technologyData } from "../data/TechnologyData";
 
-export const TechnologyCard = ({data}) => {
+const TechnologyCard = ({data}) => {
   const {isArrKey, setIsArrKey} = useStateContext()
 
   useEffect(() => {
@@ -55,3 +55,5 @@ export const TechnologyCard = ({data}) => {
     </div>
   );
 };
+
+export default TechnologyCard
