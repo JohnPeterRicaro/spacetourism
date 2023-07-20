@@ -1,7 +1,7 @@
 import { useStateContext } from "@/ContextProvider/ContextProvider";
 import { bellefair, barlow_condensed } from "../_app";
 import { useEffect } from "react";
-import { techLinkedList, technologyData } from "../data/TechnologyData";
+import technologyData, { techLinkedList } from "../data/TechnologyData";
 
 const TechnologyCard = ({data}) => {
   const {isArrKey, setIsArrKey} = useStateContext()

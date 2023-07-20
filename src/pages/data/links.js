@@ -1,4 +1,4 @@
-export const navLinks = [
+const navLinks = [
   {
     key: 0,
     num: '00',
@@ -24,3 +24,5 @@ export const navLinks = [
     dest: "/Technology",
   },
 ];
+
+export default navLinks

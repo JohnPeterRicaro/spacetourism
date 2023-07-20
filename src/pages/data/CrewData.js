@@ -1,4 +1,4 @@
-export const CrewData = [
+const CrewData = [
   {
     key: 0,
     title: "Commander",
@@ -55,3 +55,5 @@ export const linkedList = [
     key: 3,
   },
 ];
+
+export default CrewData

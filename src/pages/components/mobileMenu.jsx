@@ -1,5 +1,5 @@
 import { useStateContext } from "@/ContextProvider/ContextProvider";
-import { navLinks } from "../data/links";
+import navLinks from "../data/links";
 import { barlow_condensed } from "../_app";
 
 const MobileMenu = () => {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { barlow_condensed, bellefair } from "../_app";
 import { useStateContext } from "@/ContextProvider/ContextProvider";
-import { DestinationTitle, destinationData } from "../data/DestinationData";
+import destinationData, { DestinationTitle } from "../data/DestinationData";
 
 const DestinationCard = ({ data }) => {
   const { isArrKey, setIsArrKey } = useStateContext();

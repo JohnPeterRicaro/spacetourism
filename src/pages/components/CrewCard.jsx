@@ -1,9 +1,9 @@
 import { useStateContext } from "@/ContextProvider/ContextProvider";
 import { barlow_condensed, bellefair } from "../_app";
-import { CrewData, linkedList } from "../data/CrewData";
+import CrewData , { linkedList } from "../data/CrewData";
 import { useEffect } from "react";
 
-export const CrewCard = ({ data }) => {
+const CrewCard = ({ data }) => {
   const { isArrKey, setIsArrKey } = useStateContext();
 
   useEffect(() => {

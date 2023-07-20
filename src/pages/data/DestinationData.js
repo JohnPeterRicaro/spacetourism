@@ -1,4 +1,4 @@
-export const destinationData = [
+const destinationData = [
   {
     key: 0,
     title: "Moon",
@@ -63,3 +63,5 @@ export const DestinationTitle = [
     title: 'Titan',
   },
 ]
+
+export default destinationData

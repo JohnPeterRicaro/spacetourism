@@ -1,4 +1,4 @@
-export const technologyData = [
+const technologyData = [
     {
       key: 0,
       title: "LAUNCH VEHICLE",
@@ -41,4 +41,6 @@ export const techLinkedList = [
         key: 2,
         title: '3'
     },
-]
+];
+
+export default technologyData

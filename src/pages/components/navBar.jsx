@@ -1,6 +1,6 @@
 import { useStateContext } from "@/ContextProvider/ContextProvider";
 import { barlow_condensed } from "../_app";
-import { navLinks } from "../data/links";
+import navLinks from "../data/links";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 

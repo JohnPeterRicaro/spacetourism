@@ -1,7 +1,6 @@
 import MobileMenu from "./components/mobileMenu";
 import { barlow_condensed, bellefair } from "@/pages/_app";
-import { destinationData } from "./data/DestinationData";
-import { useState } from "react";
+import destinationData from "./data/DestinationData";
 import DestinationCard from "./components/DestinationCard";
 import { useStateContext } from "@/ContextProvider/ContextProvider";
 

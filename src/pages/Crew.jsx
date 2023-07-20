@@ -1,8 +1,8 @@
 import { useStateContext } from "@/ContextProvider/ContextProvider";
 import { barlow_condensed, bellefair } from "./_app";
-import { CrewCard } from "./components/CrewCard";
+import CrewCard from "./components/CrewCard";
 import MobileMenu from "./components/mobileMenu";
-import { CrewData } from "./data/CrewData";
+import CrewData from "./data/CrewData";
 
 const Crew = () => {
   const {isArrKey} = useStateContext()
