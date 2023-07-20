@@ -2,7 +2,7 @@ import MobileMenu from "./components/mobileMenu";
 import { bellefair, barlow_condensed } from "./_app";
 import { useStateContext } from "@/ContextProvider/ContextProvider";
 import technologyData from "./data/TechnologyData";
-import TechCard from "./components/technologyCard";
+import TechCard from "./components/TechnologyCard";
 
 const Technology = () => {
   const { isArrKey } = useStateContext();
