@@ -4,7 +4,7 @@ import MobileMenu from "../components/mobileMenu";
 export default function Home() {
   return (
     <>
-      <div className="relative h-[667px] bg-no-repeat bg-cover bg-home-mobile md:bg-home-tablet md:h-[1024px] lg:bg-home-desktop lg:h-screen overflow-hidden">
+      <div className="relative h-[850px] bg-no-repeat bg-cover bg-home-mobile md:bg-home-tablet md:h-[1024px] lg:bg-home-desktop lg:h-screen overflow-hidden">
         <>
           <MobileMenu />
           <div className="pt-[100px] px-[24px] space-y-[81px] text-center text-white flex flex-col justify-center items-center md:w-[450px] md:mx-auto md:pt-[200px] md:px-[0px] md:space-y-[151px] lg:pt-[500px] lg:flex-row lg:space-y-0 lg:justify-between lg:items-center lg:w-full lg:px-[165px] lg:text-left">
